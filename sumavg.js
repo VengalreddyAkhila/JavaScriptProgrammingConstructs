@@ -10,5 +10,5 @@ const sum = num1 + num2 + num3 + num4 + num5;
 //average numbers
 const avg = (num1 + num2 + num3 + num4 + num5)/5;
 
-// display the sum
+// display the sum and avg
 console.log(' The sum of: ' +sum+' Avg of: '+avg);
