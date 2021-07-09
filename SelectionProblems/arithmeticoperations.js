@@ -1,0 +1,18 @@
+let readline = require("readline-sync");
+let num1 = readline.question("Enter the num1: ");
+let num2 = readline.question("Enter the num2: ");
+let num3 = readline.question("Enter the num3: ");
+let a = parseFloat(num1);
+let b = parseFloat(num2);
+let c = parseFloat(num3);
+let x = a + b * c;
+console.log(" "+x);
+let y = a % b + c;
+console.log(" "+y);
+let z = c + a / b;
+console.log(" "+z);
+let k = a * b + c;
+console.log(" "+k);
+let maximum = Math.max(x,y,z,k);
+let minimum = Math.min(x,y,z,k);
+console.log("maximum"+maximum + "minimum"+minimum);
