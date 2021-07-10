@@ -10,4 +10,4 @@ function nthHarmonic(N)
     }
     return harmonic;
 } 
-console.log( nthHarmonic(N).toFixed(5));
+console.log( nthHarmonic(N).toFixed(4));
