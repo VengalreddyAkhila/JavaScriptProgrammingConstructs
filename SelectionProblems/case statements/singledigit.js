@@ -1,3 +1,4 @@
+//using case statement number to word
 let readline = require("readline-sync");
 let number = readline.question("Enter the single digit number: ");
 let choice = parseInt(number);
