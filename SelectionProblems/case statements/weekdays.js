@@ -1,6 +1,6 @@
 //case statement weekdays
 let readline = require("readline-sync");
-let number = readline.question("Enter the single digit number: ");
+let number = readline.question("Enter the weekday numbers: ");
 let choice = parseInt(number);
 switch(choice)
 {    
